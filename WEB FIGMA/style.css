@@ -1,0 +1,80 @@
+body {
+    font-family: 'Times New Roman', Times, serif
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 700px;
+    background-color: white
+}
+
+.container {
+    display: contents;
+    width: 100%;
+    max-width: 1500px;
+    background-color: white;
+   
+}
+
+.image {
+    
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.image img {
+    max-width: 90%; 
+    height: 90%;     
+}
+
+.content {
+    padding: 60px;
+    flex: 1;
+}
+
+.services-title {
+    color: #FD5B2F;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+   
+   
+}
+
+.description {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.coworking-text {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.availability-button {
+    background-color: #FD5B2F;
+    color: white;
+    padding: 11px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tour-button {
+    background-color: white;
+    border: 1px white;
+    padding: 18px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
